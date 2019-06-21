@@ -1,0 +1,352 @@
+/*Банер початок*/
+#banner_with_header {
+    width: 100%;
+    background-image: url(../images/banner.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 0;
+    border-bottom: 1px solid #505269;
+}
+
+.basic_navigation {
+    display: flex;
+}
+
+.basic_navigation a {
+    text-decoration: none;
+    color: #cccdd3;
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+
+.basic_navigation a:hover {
+    color: #fff;
+}
+
+.container_center {
+    width: 70%;
+    margin: 0 auto;
+    padding: 8% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container_center h1 {
+    font-size: 65px;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 0 10px;
+}
+
+.container_center p {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.button_find_more {
+    background-color: #e84545;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 15px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 2px;
+    transition: background-color 0.5s;
+}
+
+.button_find_more:hover {
+    background-color: #fc0f0f;
+}
+
+/*Банер кінець*/
+/*Features початок*/
+.features_parts {
+    width: 32%;
+}
+
+.features_center {
+    width: 80%;
+    padding: 10% 0 7%;
+    justify-content: space-between;
+}
+
+.features_parts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.features_parts h5 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 25px 0 20px;
+    text-align: center;
+}
+
+.features_parts p {
+    font-size: 16px;
+    color: #6c7279;
+    margin: 0;
+}
+
+/*Features кінець*/
+/*Works початок*/
+#works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.parts_work {
+    width: 25%;
+    box-sizing: border-box;
+    border: 0.5px solid #fff;
+    position: relative;
+}
+
+.parts_work img {
+    width: 100%;
+    height: 100%;
+    transition: width 1s;
+}
+
+.overlay {
+    background-color: rgba(232, 69, 69, 0.8);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.overlay_caption h5 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.overlay_caption p {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+.parts_work:hover .overlay {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*Works кінець*/
+/*Teams початок*/
+.container_person {
+    width: 85%;
+    justify-content: space-between;
+}
+
+.person {
+    width: 23%;
+}
+
+.person h4 {
+    font-size: 25px;
+    color: #2d3033;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.person h5 {
+    color: #e84545;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.person p {
+    font-size: 20px;
+    line-height: 22.4px;
+    color: #6c7279;
+    text-align: left;
+    margin: 0 0 30px;
+}
+
+.person ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.person>img {
+    width: 100%;
+}
+
+.person li div {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #6c7279;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    transition: background-color 0.5s;
+}
+
+.person li div:hover {
+    background-color: #e84545;
+}
+
+/*Teams кінець*/
+/*Testimonials початок*/
+#testimonials {
+    background-color: #53354a;
+    display: flex;
+    justify-content: space-between;
+}
+
+.customer_foto,
+.customer_text {
+    width: 50%;
+    position: relative;
+}
+
+.customer_foto img {
+    width: 100%;
+    margin-bottom: 4px;
+}
+
+.customer_text {
+    padding-top: 2%;
+}
+
+.customer_text p {
+    color: #fff;
+    font: italic 28px "Cardo", Georgia, "Times New Roman", serif;
+    text-align: center;
+}
+
+.author {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
+
+/*Testimonials кінець*/
+/*Download початок*/
+.download_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#download p {
+    font-size: 28px;
+    color: #2d3033;
+    font-weight: 300;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.download_for_free {
+    margin: 30px auto;
+}
+
+/*Download кінець*/
+/*Footer початок*/
+.top_footer {
+    background-color: #3a3e64;
+    padding: 5%;
+}
+
+.cont_footer_center {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont_footer_center>div {
+    width: 30%;
+}
+
+.cont_footer_center h5 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 6s00;
+}
+
+.cont_footer_center p {
+    text-align: center;
+    font-size: 17px;
+    line-height: 22.4px;
+    color: #9597ab;
+}
+
+.share_with_love ul {
+    display: flex;
+    justify-content: center;
+}
+
+.share_with_love li div {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #6c7279;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    transition: background-color 0.5s;
+}
+
+.share_with_love li div:hover {
+    background-color: #e84545;
+}
+
+/*Bottom footer*/
+.bottom_footer {
+    background-color: #313454;
+    padding: 20px;
+}
+
+.bottom_footer p {
+    text-align: center;
+    font-size: 17px;
+    line-height: 22.4px;
+    color: #9597ab;
+}
+
+/*Footer кінець*/
